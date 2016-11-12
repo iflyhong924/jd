@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+/*模态层*/
+.modal{ width:100%; height:100%; background:#000; opacity:.3; position:fixed; top:0; left:0; z-index:10; display:none}
+
+/*登录弹框*/
+.popBox_logon .openBtn{ width:100px; height:40px; border:1px solid #ccc; border-radius:5px; display:block; margin:100px auto}
+.popBox_logon{width:500px;height:220px; background:#fff;position:absolute;top:0;left:0; z-index:20; display:none}
+.popBox_logon input{ height:30px; width:200px; border:1px solid #ccc;}
+.popBox_logon p{ padding-left:50px; padding-top:20px;}
+.popBox_logon h4{height:40px; line-height:40px; text-indent:1em; background:#ccc;cursor:move}
+.popBox_logon .logonBtn{width:100px; height:30px;border:1px solid #ccc; margin-left:66px}
+
+/*错误弹框*/
+.popBox_error{ padding:10px; background:red; color:#fff; font-size:16px; position:absolute; border-radius:5px; margin-top:-8%; max-width:300px}
+
+/*轮播图*/
+.slide{position:relative;width:730px;overflow:hidden;height:454px;}
+.slide ol {position:absolute;bottom:10px;right:42%;}
+.slide ol li {float:left;width:18px;height:18px;background:#3e3e3e;border-radius:50%;margin-right:3px;text-align:center;line-height:18px;color:#fff;opacity:.8;cursor:pointer;}
+.slide .ac {background:#c81623;position:relative;}
+.slide ul { position: absolute;top:0;left:0;z-index:-1;height:454px;}
+.slide ul li {float:left;width:730px;height:454px;}
+.slide ul img {width:730px;height:454px;}
+.slide .moveBtn {width:30px;height:60px;display:inline-block;background:rgba(0,0,0,.2);line-height:60px;text-align:center;position:absolute;top:50%;transform:translateY(-50%);color:#fff;font-size:26px;display:none;}
+.slide .prev {left:0;}
+.slide .next {right:0;}
+.slide:hover .prev{display:block;}
+.slide:hover .next{display:block;}
+
+.act{color:#FF0004}
+

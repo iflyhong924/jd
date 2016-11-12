@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,div,h1,h2,h3,h4,h5,h6,p,a,img,input,ul,dd,dt,dl{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;color:#666;}
+img,input{border:none;}
+body{font-family:simsun;font-size:12px;color:#666;}
+img{display:block;}
+input{outline:none;}
+.clear{clear:both;}
+.inner{width:1210px;margin:0 auto;}
+
+.clearfix:after{
+	content:"";
+	display:block;
+	height:0;
+	clear:both;
+	
+	}
